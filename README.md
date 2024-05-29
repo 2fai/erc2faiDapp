@@ -1,1 +1,2 @@
-Create your own .env file based on the sample
+create .env with REACT_APP_WALLET_CONNECT_ID
+yarn run start
