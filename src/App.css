@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+  font-family: 'Space Grotesk', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+#logged-in-wrap .chakra-wrap__list {
+  justify-content: space-between;
+}
+
+.chakra-card {
+  background: #0000 !important;
+}
+
+button {
+  background-color: transparent !important;
+}
+
+w3m-connect-button,
+w3m-core-button,
+w3m-button-big {
+  width: 150px !important;
+  z-index: initial;
+}
+
+button.chakra-button.css-15w88gn {
+  background: #05a3ba !important;
+}
+
+button.chakra-button {
+  border-radius: 7px !important;
+  padding: 10px !important;
+}
+
+button.chakra-button:hover {
+  opacity: 0.8;
+}
+
+section.chakra-popover__content {
+  background: #040404;
+}
+
+.button_demo {
+  background: #05a3ba !important;
+  color: #ffffff !important;
+  width: 150px !important;
+  margin: 0 auto;
+}
+
+.button_demo:hover {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+.button_demo_2fa {
+  background: #05a3ba !important;
+  color: #ffffff !important;
+}
+
+.button_demo_2fa_tiers {
+  background: #05a3ba !important;
+  color: #ffffff !important;
+  width: 60% !important;
+  margin: 0 auto;
+}
+
+chakra-spinner {
+  margin: 0 auto !important;
+  text-align: center;
+}
+
+.button_demo_2fa:hover {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
+
+.claim-rewards-button {
+  color: white !important;
+  background-color: #05a3ba !important; /* Establece el color de fondo a azul */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Mantiene la sombra si es necesaria */
+}
+
+.linear-wipe {
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    #fff 20%,
+    #116ba3 40%,
+    #008081 60%,
+    #fff 80%
+  );
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 2s linear infinite;
+}
+
+.learn {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.linear-wipe2 {
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    #fff 20%,
+    #116ba3 40%,
+    #008081 60%,
+    #fff 80%
+  );
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header_link2 {
+  padding: 4px 10px 4px 10px !important;
+}
+
+.header_link:hover {
+  color: #05a3ba !important;
+}
+
+button {
+  border-radius: 25px !important;
+}
+
+p.chakra-text.keyfeature {
+  border-radius: 25px;
+  padding: 12px;
+}
+
+.astrodivider {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.astrodividermask {
+  overflow: hidden;
+  height: 20px;
+}
+
+.astrodividermask:after {
+  content: '';
+  display: block;
+  margin: -55px auto 0;
+  width: 100%;
+  height: 55px;
+  border-radius: 125px / 12px;
+  box-shadow: 0 0 15px #05a3ba;
+}
+.astrodivider span {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: -25px;
+  left: 50%;
+  margin-left: -25px;
+  border-radius: 100%;
+  box-shadow: 0 2px 4px #05a3ba;
+  background: rgb(12 102 119 / 59%);
+}
+.astrodivider i {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  border-radius: 100%;
+  border: 1px dashed #05a3ba;
+  text-align: center;
+  line-height: 40px;
+  font-style: normal;
+  color: #05a3ba;
+}
+
+.buy-2fai {
+  padding: 4px 10px 4px 10px;
+  height: initial;
+}
+
+.upgradetier {
+  background: #05a3ba !important;
+  color: #ffffff !important;
+}
+
+.upgradetier:hover {
+  background: #05a3ba !important;
+  color: #000000 !important;
+}
+
+.chakra-popover__popper {
+  z-index: 99999999999999999 !important;
+}
+
+.chakra-modal__content {
+  background-color: #01010c !important;
+}
+
+.chakra-modal__content-container {
+  z-index: 99999999999999999 !important;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.chakra-modal__body {
+  background-color: #01010c !important;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.chakra-modal__footer {
+  background-color: #01010c !important;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.wallet_connected {
+  background: #05a3ba !important;
+  color: #ffffff !important;
+}

@@ -1,0 +1,21 @@
+/* header.css */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.button_dapp {
+  background: #05a3ba !important;
+  color: #ffffff !important;
+  opacity: 0.25 !important;
+}
+
+@media (max-width: 1340px) {
+  .link-smaller-text {
+    font-size: 0.8rem !important;
+  }
+  .buy-2fai {
+    padding: 3px 5px 3px 5px;
+    border-radius: 20px;
+  }
+}

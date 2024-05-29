@@ -1,0 +1,95 @@
+/* mainBanner.css */
+
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(
+      -15px
+    ); /* Ajusta este valor según la distancia que desees */
+  }
+}
+
+.image-move {
+  animation: moveUpDown 3s ease-in-out infinite;
+}
+
+hr {
+  background-color: #fff;
+  padding: 0;
+  width: 100%;
+}
+
+hr.hr-17 {
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px white !important;
+}
+
+hr.hr-17:after {
+  content: '\00a0';
+}
+
+.section.mouse {
+  z-index: 10;
+  max-width: none;
+  overflow: hidden;
+}
+
+.container.mouse {
+  height: 29px;
+  max-width: 17px;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: block;
+}
+
+.w-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.w-container:before,
+.w-container:after {
+  content: ' ';
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.w-container:after {
+  clear: both;
+}
+
+.w-container .w-row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.image-3 {
+  position: absolute;
+}
+
+.image-2 {
+  object-fit: fill;
+  margin: 6px 0 0 7px;
+  position: absolute;
+  animation: moverArribaAbajo 1s ease-in-out infinite;
+}
+
+@keyframes moverArribaAbajo {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(
+      2px
+    ); /* Ajusta este valor para controlar la distancia */
+  }
+}
