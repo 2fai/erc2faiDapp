@@ -1,0 +1,63 @@
+/* LandingPage.css */
+
+.about {
+  background-color: #05041a;
+  background-image: linear-gradient(180deg, #050420 0%, #050420 50%);
+}
+
+.tokenomics {
+  background-color: #05041a;
+  background-image: linear-gradient(360deg, #01010c 0%, #01010c 50%);
+}
+
+.demos {
+  background-color: #05041a;
+  background-image: linear-gradient(360deg, #050420 0%, #050420 50%);
+}
+
+.noise {
+  opacity: 0.35;
+  mix-blend-mode: difference;
+  background-image: url(https://mazze.io/images/noise-gif-square-anim.gif);
+  background-position: 0 0;
+  background-size: 150px;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.imghover:hover {
+  opacity: 1 !important;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.keyfeature {
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid #05a3ba;
+  width: fit-content;
+}
+
+.keyfeature:hover {
+  background: #05a3ba;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+hr.hr-18 {
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 2px #05a3ba !important;
+}

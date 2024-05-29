@@ -1,0 +1,121 @@
+/* LoggedInPage.css */
+
+hr {
+  background-color: #fff;
+  padding: 0;
+  width: 100%;
+}
+
+hr.hr-17 {
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 10px 1px white;
+}
+
+.logout-b {
+  background: #ff3333 !important;
+  margin-top: 10px !important;
+}
+
+hr.hr-17:after {
+  content: '\00a0';
+}
+
+.noise {
+  opacity: 0.35;
+  mix-blend-mode: difference;
+  background-image: url(https://mazze.io/images/noise-gif-square-anim.gif);
+  background-position: 0 0;
+  background-size: 150px;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.background1 {
+  background-color: #05041a;
+  background-image: linear-gradient(180deg, #050420 0%, #050420 50%);
+}
+
+.background2 {
+  background-color: #05041a;
+  background-image: linear-gradient(360deg, #01010c 0%, #01010c 50%);
+}
+
+.twofabutton {
+  background-color: #05a3ba;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 10px;
+  opacity: 1;
+  z-index: 1;
+  padding: 2px !important;
+}
+
+.twofabutton:hover {
+  background-color: #05a3ba;
+  opacity: 0.8;
+}
+
+.coinbasebutton {
+  background-color: #ffffff;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 10px;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.coinbasebutton:hover {
+  background-color: #ffffff;
+  opacity: 0.8;
+}
+
+.coinbasebutton {
+  opacity: 1;
+}
+
+.dextoolsbutton {
+  background-color: #0b99c1;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 10px;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.dextoolsbutton:hover {
+  opacity: 0.8;
+}
+
+.dextoolsbutton {
+  opacity: 1;
+}
+
+.button2fa {
+  color: #ffffff;
+}
+
+.button2fa_coinbase {
+  color: #000000 !important;
+}
+
+.button2fa_dextools {
+  color: #ffffff !important;
+}
+
+.wallet-user {
+  color: black !important;
+  margin-left: 5px;
+  cursor: pointer;
+  background: white;
+  padding: 5px, 10px, 5px, 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px !important;
+}
