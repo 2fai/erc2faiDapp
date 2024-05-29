@@ -1,0 +1,11 @@
+{
+  "name": "2faiContracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kerry",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@openzeppelin/contracts": "4.9.2"
+  }
+}
